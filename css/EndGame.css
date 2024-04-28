@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'HeadlinerNo.45';
+    src: url(../font/HeadlinerNo.45.ttf);
+}
+
+
+.global_games {
+    font-family: 'HeadlinerNo.45';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #860000;
+}
+
+.nav_endgame {
+    font-family: 'HeadlinerNo.45';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+.end_game_nav_main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.end_game_nav_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.navbar_avex {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar_avex ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+.navbar_avex ul li {
+    padding: 0px 26px;
+}
+
+.navbar_avex ul li a:hover {
+    color: #860000;
+}
+
+#hero_avex {
+    width: 100%;
+    background: url(../img/endgame-banner.png);
+    background-position: center center;
+    overflow: hidden;
+    padding: 0;
+}
+
+.overlay_black {
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background-color: #000000; */
+    opacity: 0.25;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+/* fhuisheeeeeeeeeeeeeeeeeul */
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: #eaeaea;
+
+}
+
+.right {
+    width: 80%;
+    height: 100%;
+    background: #262626;
+    transition-property: width;
+    transition-duration: 1s;
+}
+
+.left {
+    position: relative;
+    width: 20%;
+    height: 100%;
+
+
+    transition-property: width;
+    transition-duration: 1s;
+}
+
+.left .ball1 {
+    position: absolute;
+   
+    border-radius: 50%;
+
+    top: 4%;
+    left: 110%;
+    transition-property: left;
+    transition-duration: 1.5s;
+    z-index: 99;
+}
+
+.left .ball2 {
+    position: absolute;
+   
+    border-radius: 50%;
+
+    top: 22%;
+    right: -80%;
+    transition-property: right;
+    transition-duration: 1.5s;
+}
+
+.left .ball3 {
+    position: absolute;
+   
+    border-radius: 50%;
+    top: 73%;
+    right: -80%;
+    transition-property: left;
+    transition-duration: 1.8s;
+}
+
+.left .ball4 {
+    position: absolute;
+    border-radius: 50%;
+
+    top: 75%;
+    right: -180%;
+    transition-property: right;
+    transition-duration: 1.8s;
+}
+.left .ball5 {
+    
+    
+    position: absolute;
+    border-radius: 50%;
+    top: 38%;
+    right: -80%;
+    transition-property: left;
+    transition-duration: 1.8s;
+    z-index: 99999;
+}
+
+.left .ball6 {
+    position: absolute;
+   
+    border-radius: 50%;
+
+    top: -8%;
+    right: -80%;
+    transition-property: right;
+    transition-duration: 1.8s;
+}

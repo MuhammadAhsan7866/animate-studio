@@ -1,0 +1,257 @@
+/* #newSlider .owl-stage {
+  width: 100% !important;
+  display: flex;
+}
+
+#newSlider .owl-item {
+  width: 100% !important;
+} */
+#newSlider .owl-carousel {
+  position: relative;
+}
+#newSlider .slider_content {
+  font-size: 18px;
+  letter-spacing: 0px;
+  color: #eaeaea;
+  text-transform: uppercase;
+  opacity: 1;
+  width: 100%;
+  max-width: 970px;
+  font-weight: normal !important;
+  font-family: "Neue-Machina";
+  line-height: 25px;
+}
+#newSlider .owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  border: 1px solid #eaeaea;
+  border-radius: 0;
+  width: 60px;
+  height: 60px;
+}
+#newSlider button.owl-prev,
+button.owl-next span {
+  color: #eaeaea;
+  font-size: 25px;
+}
+
+#newSlider .owl-dots {
+  display: none;
+}
+
+#newSlider .owl-nav {
+  position: absolute;
+  top: -30px;
+  margin-top: 0 !important;
+  left: 155px;
+}
+
+#newSlider .slider_heading {
+  font-size: 30px;
+  line-height: 37px;
+  font: normal normal 900 32px/37px Neue Machina;
+  letter-spacing: 0px;
+  color: #eaeaea;
+  opacity: 1;
+  margin-left: 200px;
+}
+
+#newSlider .sliderContentWrapper {
+  justify-content: space-between;
+  align-items: baseline;
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+.btn_unique {
+  padding-left: 12px;
+  color: #eaeaea;
+  border: 1px solid #eaeaea;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: width;
+  transition-duration: 500ms;
+  width: 220px;
+  max-width: 220px;
+  cursor: pointer;
+  padding-right: 1px;
+}
+
+.btn_unique:hover .first_link {
+  display: none;
+}
+.btn_unique:hover .sec_link {
+  display: block;
+}
+.btn_unique:hover {
+  width: 160px;
+}
+.btnArow {
+  padding: 18px;
+  margin-left: 20px;
+  border-left: 1px solid #eaeaea;
+  cursor: pointer;
+  background: linear-gradient(#fff 0 0) var(--p,0)/var(--p,0) no-repeat;
+  transition-property: left;
+  transition: .4s,background-position 0s;
+}
+.btn_unique:hover .btnArow {
+  background-color: #fff;
+  color: #000;
+}
+.btn_unique:before {
+  content: attr(data-text);
+}
+.btn_unique:hover::before {
+  content: attr(data-texthover);
+}
+
+/* Say hi buttions  */
+.btn_unique2 {
+  padding-left: 12px;
+  color: #eaeaea;
+  border: 1px solid #eaeaea;
+  background-color: transparent;
+  text-transform: uppercase;
+ 
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 189px;
+  background-color: transparent;
+  margin-top: 62px;
+ 
+}
+.btn_unique2:hover .btnArow {
+  background-color: #fff;
+  color: #000;
+  top: 0;
+    left: 210px;
+}
+.btn_unique2:before {
+  content: attr(data-text);
+}
+.btn_unique2:hover::before {
+  content: attr(data-texthover);
+}
+/* End */
+
+.btnArow:hover {
+  --p: 100%;
+  color: #fff;
+}
+
+a.sec_link {
+  color: white;
+  text-decoration: none;
+  color: var(--unnamed-color-eaeaea);
+  text-align: left;
+  font: normal normal 300 31px/37px Neue Machina ;
+  font-family: "Neue-Machina";
+  letter-spacing: 0px;
+  color: #EAEAEA;
+}
+
+
+
+/* new */
+
+
+.btn_unique {
+  padding-left: 12px;
+  color: #eaeaea;
+  border: 1px solid #eaeaea;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: width;
+  transition-duration: 500ms;
+  width: 220px;
+  max-width: 220px;
+  cursor: pointer;
+}
+a.first_link,
+a.sec_link {
+  color: #eaeaea;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.none_value {
+
+  display: none;
+
+}
+
+.btn_unique:hover .first_link {
+  display: none;
+}
+.btn_unique:hover .sec_link {
+  display: block;
+}
+.btn_unique:hover {
+  width: 160px;
+}
+.btnArow {
+  padding: 18px;
+  margin-left: 20px;
+  border-left: 1px solid #eaeaea;
+  cursor: pointer;
+}
+
+.btn_unique:hover .btnArow {
+  background-color: #fff;
+  color: #000;
+}
+.btn_unique:before {
+  content: attr(data-text);
+}
+.btn_unique:hover::before {
+  content: attr(data-texthover);
+}
+
+@media only screen and (max-width: 1024px) {
+  #newSlider .slider_content {
+    font-size: 14px;
+  }
+  #newSlider .sliderContentWrapper {
+    flex-wrap: wrap;
+  }
+  #newSlider .owl-nav {
+    left: 30px;
+    top: -15px;
+  }
+  #newSlider .slider_heading {
+    font-size: 20px;
+    margin-left: 150px;
+  }
+  #newSlider .owl-carousel .owl-nav button.owl-next,
+  .owl-carousel .owl-nav button.owl-prev {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media only screen and (max-width: 991px){
+  .left{
+  display: none;
+  }
+  .right{
+    width: 100% !important;
+  }
+  .hero{
+    background: transparent;
+  }
+  .warpper_text h2{
+    width: 0px;
+  }
+
+}

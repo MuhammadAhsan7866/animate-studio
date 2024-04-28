@@ -1,0 +1,437 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
+
+@font-face {
+    font-family: 'Neue-Machina';
+    src: url(../fonts/neue-helvetica-cufonfonts/NeueMachina-Ultralight.ttf);
+}
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url(../fonts/neue-helvetica-cufonfonts/NeueMachina-Ultrabold.otf);
+}
+
+@font-face {
+    font-family: 'Neue Machina Regular';
+    src: url(../fonts/neue-helvetica-cufonfonts/NeueMachina-Regular.otf);
+}
+.lotties {
+    background: #262626;
+}
+
+.lotties_studio {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header_section_studio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    padding: 27px 113px;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid white;
+}
+
+.header_section_studio h2 {
+    color: white;
+    margin-bottom: 0px;
+    color: var(--unnamed-color-eaeaea);
+    text-align: center;
+    font: normal normal 900 37px/43px Neue Machina;
+    letter-spacing: 0px;
+    color: #EAEAEA;
+    text-transform: lowercase;
+    opacity: 1;
+    font-family: Neue Machina;
+}
+
+.main_waraper {
+  
+    margin: auto;
+    border-left: 1px solid white;
+    padding-left: 40px !important;
+    min-height: 805px;
+}
+
+.warpper_text h2 {
+    color: var(--unnamed-color-eaeaea);
+    text-align: left;
+    font: normal normal 900 60px/70px Neue Machina;
+    letter-spacing: 0px;
+    color: #EAEAEA;
+    opacity: 1;
+    font-family: 'Neue Machina';
+    padding-top: 9rem;
+    width: 700px;
+}
+
+.warpper_text p {
+
+    color: var(--unnamed-color-eaeaea);
+    text-align: left;
+    font: normal normal 300 20px/24px Neue-Machina ;
+    letter-spacing: 0px;
+    color: #EAEAEA;
+    text-transform: uppercase;
+    opacity: 1;
+    font-family:"Neue-Machina";
+    margin-top: 21px;
+    width: 510px;
+
+}
+
+.body_section_halto {
+    padding-left: 70px;
+    margin-right: 0px;
+}
+
+.second-section-hard-numbers ul li {
+
+    list-style: none;
+
+
+}
+
+.second-section-hard-numbers ul {}
+
+.first-step-verg h2 {
+    color: white;
+    font-family: 'Neue-Machina';
+    text-decoration: none;
+    font-size: 247px;
+
+}
+
+.first-step-verg h4 {
+    color: white;
+    font-family: 'Neue Machina';
+    text-decoration: none;
+    font-size: 42px;
+    margin-left: 20px;
+
+}
+
+.first-step-verg {
+    display: flex;
+    align-items: end;
+}
+
+.second-section-hard-numbers ul li button {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+
+
+
+
+.main-bg-transparent {
+    background: url(../images/raw-tab.png);
+    background-repeat: no-repeat;
+}
+
+.count1_text {
+    color: white;
+}
+
+.count1_text h4 {
+    color: white;
+    font-family: 'Neue-Machina';
+    text-decoration: none;
+    font-size: 151px;
+    margin-bottom: 0px;
+}
+
+.details_text_area {
+    color: white;
+}
+
+.main_counting_warape {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    min-height: 1200px;
+}
+
+.details_text_area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 198px;
+    margin-left: 68px;
+    margin-bottom: 68px;
+}
+
+.text_sec {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.details_text_area h5 {
+
+    font-size: 33px;
+    color: white;
+    margin-bottom: 0px;
+
+}
+
+section.circle_animate_footer {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 4rem 0px;
+    position: relative;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    margin: 0px 129px;
+}
+
+.script_lotties_circle {
+    position: absolute;
+}
+
+.script_lotties_circle {
+    position: absolute;
+    top: 23%;
+}
+
+.footer_section {
+    background: #EAEAEA;
+    min-height: 35vh;
+    z-index: 999;
+    position: relative;
+    /* top: -237px; */
+    padding: 60px;
+}
+
+button.hi_say_btn {
+    max-width: 215px;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #EAEAEA;
+    background: transparent;
+    color: white;
+    color: var(--unnamed-color-eaeaea);
+    text-align: left;
+    font: normal Neue Machina;
+    letter-spacing: 0px;
+    color: #EAEAEA;
+    opacity: 1;
+    font-size: 25px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.hi_say_btn:hover {
+
+    background-color: white;
+    color: black;
+}
+
+.fotter_col1 h4 {
+    color: var(--unnamed-color-262626);
+    text-align: left;
+    font: normal normal 300 25px/50px 'Neue Machina Regular';
+    letter-spacing: 0px;
+    color: #262626;
+    text-transform: uppercase;
+}
+
+.fotter_col1 p {
+    color: var(--unnamed-color-262626);
+    text-align: left;
+    font: normal normal 17px/24px 'Neue Machina Regular';
+    letter-spacing: 0px;
+    color: #262626;
+    text-transform: uppercase;
+}
+
+.butns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hi_btn {
+    margin-top: 61px;
+} 
+
+.circle_center_btn {
+
+    position: absolute;
+    top: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icons_studio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+}
+
+.circle_center_btn {
+
+
+    position: absolute;
+    top: 60%;
+    width: 170px;
+
+}
+
+.second-section-hard-numbers {
+    margin-bottom: 40px;
+}
+@media screen and  (max-width:1024px){
+
+    .warpper_text h2 {
+       max-width: 700px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    
+
+    section.circle_animate_footer {
+        
+        border-left: none;
+        border-right: none;
+        margin: 0px
+    }
+    .warpper_text p {
+       
+       
+        max-width: 100%;
+    }
+    .warpper_text h2 {
+
+       
+        max-width: 100%;
+
+    }
+}
+
+@media (max-width: 768px){
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .body_section_halto {
+        padding-left: 54px;
+        margin-right: 0px;
+    }
+
+    .hi_btn {
+       
+        margin-bottom: 45px;
+    }
+    .warpper_text h2 {
+       
+        padding-top: 6rem;
+        font: normal normal 900 35px/56px Neue Machina;
+    }
+
+    .header_section_studio {
+        padding-left: 59px;
+        padding-right: 59px;
+    }
+    .main_counting_warape {
+       
+    min-height: auto;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+
+    .details_text_area h5 {
+        font-size: 23px;
+
+    }
+
+    .count1_text h4 {
+
+        font-size: 96px;
+    }
+
+    .details_text_area {
+
+        height: 150px;
+
+    }
+
+    .text_sec {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 0px;
+    }
+
+    .body_section_halto {
+        padding-left: 18px;
+
+    }
+
+    .main_waraper {
+
+        height: 56.5vh;
+    }
+
+    .warpper_text h2 {
+
+        font: normal normal 900 33px/58px Neue Machina;
+        padding-top: 3rem;
+
+    }
+
+    .warpper_text {
+        padding: 0px 10px;
+    }
+    .header_section_studio {
+       padding-left: 0px;
+       padding-right: 0px;
+        flex-direction: column;
+    }
+
+ 
+    .main_waraper {
+       
+        padding-left: 18px !important;
+       
+    }
+
+    
+}
